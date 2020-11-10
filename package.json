@@ -1,0 +1,22 @@
+{
+  "name": "mobx-react-lite-build-test",
+  "scripts": {
+    "build": "rm -rf dist .parcel-cache && NODE_ENV=PRODUCTION npx parcel build ./src/index.html"
+  },
+  "dependencies": {
+    "mobx": "6.0.3",
+    "mobx-react": "7.0.4",
+    "mobx-react-lite": "3.1.5",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "16.9.56",
+    "@types/react-dom": "16.9.9",
+    "parcel": "2.0.0-beta.1"
+  },
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 Firefox versions"
+  ]
+}
